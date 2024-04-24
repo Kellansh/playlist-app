@@ -1,0 +1,23 @@
+{
+    "playlist": [
+        {
+            "id": 111,
+            "created_user": 222,
+            "created_at": "2022-10-31T09:00:00.594Z"
+        }
+    ],
+    "song": [
+        {
+            "id": 333,
+            "name": "Tightrope",
+            "album": 444,
+            "artist": 555
+        },
+        {
+            "id": 334,
+            "name": "Victory",
+            "album": 445,
+            "artist": 555
+        }
+    ]
+}
