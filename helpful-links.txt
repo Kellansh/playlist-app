@@ -1,0 +1,5 @@
+https://react.dev/learn/start-a-new-react-project
+https://nextjs.org/learn/dashboard-app
+https://dev.to/joshhortt/a-beginners-guide-to-building-your-first-nextjs-application-step-by-step-tutorial-glf
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+https://miguel-codes.medium.com/postgres-container-for-local-dev-2621292cb4b8
