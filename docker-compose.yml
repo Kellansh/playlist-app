@@ -1,0 +1,13 @@
+version: "3.1"
+
+services:
+  db:
+    image: "postgres"
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: playlist-app-db
+    ports:
+      - 127.0.0.1:5433:5432
+    volumes:
+      - ./data/create-docker-database.sh:/docker-entrypoint-initdb.d/init-db.sh:ro
