@@ -1,2 +1,0 @@
-what else goes in dockerignore?
-what to set in ports?
