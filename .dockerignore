@@ -1,0 +1,7 @@
+# Exclude All
+*
+
+# Intententional Includes
+!package.json
+!package-lock.json
+!app

@@ -1,0 +1,18 @@
+will need a docker compose for the front end (in the same file)
+can use example from kyle's presentation
+    or pull one of the docker images available on nodejs online
+    sent on linkedin
+    https://www.youtube.com/watch?v=Pus8YUIQi8Y
+
+need connection string. this is often the hard part.
+    localhost will work if both your services are in the same docker compose
+try pg library
+
+might need redis/other caching service later
+
+internal and external ports later
+    docs.docker.com/desktop/networking
+
+look up connect nodejs to postgres
+
+can look up nginx
