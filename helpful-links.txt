@@ -4,3 +4,6 @@ https://dev.to/joshhortt/a-beginners-guide-to-building-your-first-nextjs-applica
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
 https://miguel-codes.medium.com/postgres-container-for-local-dev-2621292cb4b8
 https://tailwindcss.com/docs/dark-mode
+https://dbdiagram.io/d/Mixtape-Website-658b62a789dea62799952dae
+example dockerfile from official nextjs https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile
+https://dev.to/skipperhoa/connecting-to-postgresql-databases-in-prisma-3f20
