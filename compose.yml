@@ -9,10 +9,10 @@ services:
       args:
         - NODE_ENV=development
     ports:
-      - 3001:3001
+      - 3000:3000
     environment:
       - NODE_DEV=development
-    command: ["npx", "nodemon", "./index.js"]
+    #command: ["npm", "run", "build"]
 
   db:
     image: "postgres"
