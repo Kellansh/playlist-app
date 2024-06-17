@@ -7,3 +7,5 @@ https://tailwindcss.com/docs/dark-mode
 https://dbdiagram.io/d/Mixtape-Website-658b62a789dea62799952dae
 example dockerfile from official nextjs https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile
 https://dev.to/skipperhoa/connecting-to-postgresql-databases-in-prisma-3f20
+https://www.prisma.io/docs/getting-started/quickstart#4-explore-how-to-send-queries-to-your-database-with-prisma-client
+https://www.prisma.io/docs/orm/overview/prisma-in-your-stack/rest
