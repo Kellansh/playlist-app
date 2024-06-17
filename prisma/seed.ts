@@ -10,28 +10,21 @@ async function main() {
       { name: "Utopia" }
     ]
   });
-  const makePlaylists = await prisma.Playlist.createMany({
-    data: [
-      { name: "Blue" },
-      { name: "orange" },
-    ]
-  });
-  const putSongsInPlaylist = await prisma.SongsInPlaylists.createMany({
-    data: [
-      { playlistId: 1, songId: 1, assignedBy: "staff" },
-      { playlistId: 1, songId: 2, assignedBy: "staff" },
-      { playlistId: 1, songId: 3, assignedBy: "staff" },
-      { playlistId: 2, songId: 3, assignedBy: "staff" },
-      { playlistId: 2, songId: 2, assignedBy: "staff" },
-      { playlistId: 2, songId: 3, assignedBy: "staff" }
-    ]
-  });
-  const playlist1 = await prisma.Playlist.update({
-    where: { id: 1 },
+
+  const makePlaylist1 = await prisma.Playlist.create({
     data: {
-      SongsInPlaylists: {
-        connect: [{id: 1}, {id: 2}, {id: 3}]
-      }
+        name: "Blue",
+        songs: {
+            connect: [{ id: 1 }, { id: 2 }, { id: 3 }]
+        }
+    }
+  });
+  const makePlaylist2 = await prisma.Playlist.create({
+    data: {
+        name: "Orange",
+        songs: {
+            connect: [{ id: 3 }, { id: 2 }, { id: 3 }]
+        }
     }
   });
 }

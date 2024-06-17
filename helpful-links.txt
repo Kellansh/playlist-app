@@ -9,3 +9,6 @@ example dockerfile from official nextjs https://github.com/vercel/next.js/blob/c
 https://dev.to/skipperhoa/connecting-to-postgresql-databases-in-prisma-3f20
 https://www.prisma.io/docs/getting-started/quickstart#4-explore-how-to-send-queries-to-your-database-with-prisma-client
 https://www.prisma.io/docs/orm/overview/prisma-in-your-stack/rest
+https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#create-multiple-records-and-multiple-related-records
+https://www.prisma.io/docs/orm/prisma-schema/data-model/relations/many-to-many-relations
+https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/working-with-many-to-many-relations

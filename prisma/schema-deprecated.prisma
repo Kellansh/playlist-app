@@ -19,11 +19,21 @@ model Playlist {
   createdAt        DateTime           @default(now())
   updatedAt        DateTime           @updatedAt
   published        Boolean            @default(false)
-  songs            Song[]
+  SongsInPlaylists SongsInPlaylists[]
 }
 
 model Song {
   id               Int                @id @default(autoincrement())
   name             String             @db.VarChar(255) // TK length
-  playlists        Playlist[]
+  SongsInPlaylists SongsInPlaylists[]
+}
+
+model SongsInPlaylists {
+  id         Int      @id @default(autoincrement())
+  playlist   Playlist @relation(fields: [playlistId], references: [id])
+  playlistId Int
+  song       Song     @relation(fields: [songId], references: [id])
+  songId     Int
+  assignedAt DateTime @default(now())
+  assignedBy String
 }
