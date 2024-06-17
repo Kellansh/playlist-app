@@ -19,7 +19,7 @@ services:
     image: "postgres"
     environment:
       POSTGRES_PASSWORD: pw4d5e3hfs83
-      POSTGRES_USER: playlist-app-db
+      POSTGRES_USER: playlistdb
     ports:
       - 5433:5432
     volumes:
