@@ -1,0 +1,5 @@
+Ports available in the browser:
+Next.js     localhost:3000
+PostgresQL  localhost:5433
+Adminer     localhost:8080
+Prisma      localhost:5555 (when running)
