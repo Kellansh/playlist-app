@@ -12,3 +12,4 @@ https://www.prisma.io/docs/orm/overview/prisma-in-your-stack/rest
 https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries#create-multiple-records-and-multiple-related-records
 https://www.prisma.io/docs/orm/prisma-schema/data-model/relations/many-to-many-relations
 https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/working-with-many-to-many-relations
+https://mataroa.blog/
