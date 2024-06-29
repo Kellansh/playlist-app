@@ -15,6 +15,6 @@ USER node
 
 EXPOSE 3000
 
-CMD ["npm", "run","start"]
+CMD ["npm", "run","dev"]
 
 # Next step: go to nextjs's example dockerfile and also find out why you don't have a pnpm lock file

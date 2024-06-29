@@ -7,13 +7,13 @@ services:
       args:
         - NODE_ENV=development
     ports:
-      - 3000:3000
+      - 3001:3000
     environment:
       - NODE_DEV=development
-    #command: ["npm", "run", "build"]
     depends_on:
       db:
         condition: service_healthy
+    command: ["npm", "run", "dev"]
 
   db:
     image: "postgres"
